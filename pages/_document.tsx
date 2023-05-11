@@ -39,18 +39,18 @@ class MyDocument extends Document {
         />
 
         {/* aura meta tags */}
-        <meta property="aura:title" content="Aura NFT Exchange" />
-        <meta property="aura:icon" content="/aura-source-icon.png" />
+        <meta property="reservoir:title" content="Aura NFT Exchange" />
+        <meta property="reservoir:icon" content="/aura-source-icon.png" />
         <meta
-          property="aura:token-url-mainnet"
+          property="reservoir:token-url-mainnet"
           content="https://hub.auraexchange.org/collection/ethereum/${contract}/${tokenId}"
         />
         <meta
-          property="aura:token-url-goerli"
+          property="reservoir:token-url-goerli"
           content="https://hub.auraexchange.org/collection/goerli/${contract}/${tokenId}"
         />
         <meta
-          property="aura:token-url-polygon"
+          property="reservoir:token-url-polygon"
           content="https://hub.auraexchange.org/collection/polygon/${contract}/${tokenId}"
         />
         <body>
