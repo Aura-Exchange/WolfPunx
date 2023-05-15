@@ -157,6 +157,7 @@ const IndexPage: NextPage = () => {
                         <TabsTrigger value="listings">Listings</TabsTrigger>
                         <TabsTrigger value="offers">Offers Made</TabsTrigger>
                         <TabsTrigger value="activity">Activity</TabsTrigger>
+                        <TabsTrigger value="buy">Buy Crypto</TabsTrigger>
                         <TabsTrigger value="swap">Swap</TabsTrigger>
                       </TabsList>
                     </Flex>
@@ -285,6 +286,15 @@ const IndexPage: NextPage = () => {
                           />
                         </Box>
                       </Flex>
+                    </TabsContent>
+                    <TabsContent value="buy">
+                      <iframe
+                        src="https://buy.onramper.com?pk_prod_01H0G32PJV4921SKKEPFDXQ91B"
+                        title="Onramper Widget"
+                        height="630px"
+                        width="420px"
+                        allow="accelerometer; autoplay; camera; gyroscope; payment"
+                      />
                     </TabsContent>
                     <TabsContent value="swap">
                       <Layout>
