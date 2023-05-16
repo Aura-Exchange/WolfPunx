@@ -157,8 +157,9 @@ const IndexPage: NextPage = () => {
                         <TabsTrigger value="listings">Listings</TabsTrigger>
                         <TabsTrigger value="offers">Offers Made</TabsTrigger>
                         <TabsTrigger value="activity">Activity</TabsTrigger>
+                        <TabsTrigger value="portal">FrogTober Portal</TabsTrigger>
+                        <TabsTrigger value="degen">Degen Portal</TabsTrigger>
                         <TabsTrigger value="buy">Buy Crypto</TabsTrigger>
-                        <TabsTrigger value="swap">Swap</TabsTrigger>
                       </TabsList>
                     </Flex>
 
@@ -296,22 +297,35 @@ const IndexPage: NextPage = () => {
                         allow="accelerometer; autoplay; camera; gyroscope; payment"
                       />
                     </TabsContent>
-                    <TabsContent value="swap">
+                    <TabsContent value="portal">
                       <Layout>
                         <Flex
                           direction="column"
                           align="center"
-                          css={{ py: '200px', px: '$3', textAlign: 'center' }}
+                          css={{ py: '0px', px: '$3', textAlign: 'center' }}
                         >
-                          <Box css={{ color: '$gray11', mb: '30px' }}>
-                            <FontAwesomeIcon icon={faRocket} beatFade size="2xl" />
-                          </Box>
-                          <Text style="body1" color="subtle" css={{ mb: '$1' }}>
-                            Coming soon.
-                          </Text>
-                          <Text style="body1" color="subtle">
-                            The requested page is currently under construction by Aura HUB.
-                          </Text>
+                          <iframe
+                            src="https://paycfrogtober.netlify.app/"
+                            title="FrogTober Portal"
+                            height="630px"
+                            width="630px"
+                          />
+                        </Flex>
+                      </Layout>
+                    </TabsContent>
+                    <TabsContent value="degen">
+                      <Layout>
+                        <Flex
+                          direction="column"
+                          align="center"
+                          css={{ py: '0px', px: '$3', textAlign: 'center' }}
+                        >
+                          <iframe
+                            src="https://payc-updateddegenhours.netlify.app/"
+                            title="FrogTober Portal"
+                            height="630px"
+                            width="630px"
+                          />
                         </Flex>
                       </Layout>
                     </TabsContent>
