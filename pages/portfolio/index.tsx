@@ -157,8 +157,7 @@ const IndexPage: NextPage = () => {
                         <TabsTrigger value="listings">Listings</TabsTrigger>
                         <TabsTrigger value="offers">Offers Made</TabsTrigger>
                         <TabsTrigger value="activity">Activity</TabsTrigger>
-                        <TabsTrigger value="portal">FrogTober Portal</TabsTrigger>
-                        <TabsTrigger value="degen">Degen Portal</TabsTrigger>
+                        <TabsTrigger value="mint">Mint</TabsTrigger>
                         <TabsTrigger value="buy">Buy Crypto</TabsTrigger>
                       </TabsList>
                     </Flex>
@@ -297,7 +296,7 @@ const IndexPage: NextPage = () => {
                         allow="accelerometer; autoplay; camera; gyroscope; payment"
                       />
                     </TabsContent>
-                    <TabsContent value="portal">
+                    <TabsContent value="mint">
                       <Layout>
                         <Flex
                           direction="column"
@@ -305,26 +304,10 @@ const IndexPage: NextPage = () => {
                           css={{ py: '0px', px: '$3', textAlign: 'center' }}
                         >
                           <iframe
-                            src="https://paycfrogtober.netlify.app/"
-                            title="FrogTober Portal"
-                            height="630px"
-                            width="630px"
-                          />
-                        </Flex>
-                      </Layout>
-                    </TabsContent>
-                    <TabsContent value="degen">
-                      <Layout>
-                        <Flex
-                          direction="column"
-                          align="center"
-                          css={{ py: '0px', px: '$3', textAlign: 'center' }}
-                        >
-                          <iframe
-                            src="https://payc-updateddegenhours.netlify.app/"
-                            title="FrogTober Portal"
-                            height="630px"
-                            width="630px"
+                            src="https://wolfpunx.io/mint"
+                            title="Wolf Punx Mint"
+                            height="1080px"
+                            width="1880px"
                           />
                         </Flex>
                       </Layout>
