@@ -61,7 +61,7 @@ const Navbar = () => {
           <Link href="/">
             <Box css={{ width: 34, cursor: 'pointer' }}>
               <Image
-                src="/aura.png"
+                src="/wolf.png"
                 width={112}
                 height={36}
                 alt="Reservoir"
@@ -101,17 +101,17 @@ const Navbar = () => {
             <Box css={{ width: 112, cursor: 'pointer' }}>
               {theme == 'dark' ? (
                 <Image
-                  src="/aura.png"
+                  src="/wolf.png"
                   width={112}
                   height={36}
                   alt="aura"
                 />
               ) : (
                 <Image
-                  src="/aura-light.png"
+                  src="/wolf.png"
                   width={112}
                   height={36}
-                  alt="Reservoir"
+                  alt="Aura"
                 />
               )}
             </Box>
@@ -132,9 +132,6 @@ const Navbar = () => {
             </Link>
             <Link href="/portfolio">
               <NavItem active={router.pathname == '/portfolio'}>Sell</NavItem>
-            </Link>
-            <Link href="/domains">
-              <NavItem active={router.pathname == '/mint'}>PAYC Domain Service</NavItem>
             </Link>
           </Flex>
         </Flex>
